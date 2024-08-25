@@ -10,11 +10,36 @@ using System.Windows.Forms;
 
 namespace CSC240_06_02_FiveColors2_DSG
 {
-    public partial class Form1 : Form
+    public partial class UxForm1 : Form
     {
-        public Form1()
+        public UxForm1()
         {
             InitializeComponent();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
