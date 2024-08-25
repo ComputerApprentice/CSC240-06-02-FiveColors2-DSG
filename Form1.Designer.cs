@@ -33,6 +33,7 @@
             this.radRed = new System.Windows.Forms.RadioButton();
             this.radGreen = new System.Windows.Forms.RadioButton();
             this.radBlue = new System.Windows.Forms.RadioButton();
+            this.buttonReset = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // radWhite
@@ -95,11 +96,22 @@
             this.radBlue.UseVisualStyleBackColor = true;
             this.radBlue.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
+            // buttonReset
+            // 
+            this.buttonReset.Location = new System.Drawing.Point(202, 137);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(75, 23);
+            this.buttonReset.TabIndex = 10;
+            this.buttonReset.Text = "Reset";
+            this.buttonReset.UseVisualStyleBackColor = true;
+            this.buttonReset.Click += new System.EventHandler(this.buttonReset_Click);
+            // 
             // UxForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(375, 333);
+            this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.radBlue);
             this.Controls.Add(this.radGreen);
             this.Controls.Add(this.radRed);
@@ -118,6 +130,7 @@
         private System.Windows.Forms.RadioButton radRed;
         private System.Windows.Forms.RadioButton radGreen;
         private System.Windows.Forms.RadioButton radBlue;
+        private System.Windows.Forms.Button buttonReset;
     }
 }
 
